@@ -138,6 +138,7 @@ HISTSIZE= HISTFILESIZE= #Infinite history
 alias ll="ls -l"
 alias la="ls -la"
 alias sdn="sudo shutdown now"
+alias setwallpaper="feh --bg-scale"
 
 # SSH connections
 alias pi="ssh pi@192.168.1.10"
