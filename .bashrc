@@ -140,6 +140,10 @@ alias la="ls -la"
 alias sdn="sudo shutdown now"
 alias setwallpaper="feh --bg-scale"
 
+# Keyboard switch
+alias keyboard_us='setxkbmap -layout us'
+alias keyboard_it='setxkbmap -layout it'
+
 # SSH connections
 alias pi="ssh pi@192.168.1.10"
 alias evilsocket="ssh evilsocket@192.168.50.10"

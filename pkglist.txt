@@ -90,6 +90,8 @@ gvfs-mtp
 gvfs-smb
 gvim
 gzip
+handbrake
+handbrake-cli
 hexchat
 hq
 htop

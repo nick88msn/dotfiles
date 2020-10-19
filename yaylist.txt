@@ -1,3 +1,4 @@
+[1m[33m ->[0m[0m Avoid running yay as root/sudo.
 accountsservice
 acpi
 acpid
@@ -90,6 +91,8 @@ gvfs-mtp
 gvfs-smb
 gvim
 gzip
+handbrake
+handbrake-cli
 hexchat
 hq
 htop
