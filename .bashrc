@@ -69,7 +69,7 @@ if ${use_color} ; then
 		fi
 	fi
 
-	alias ls='ls --color=auto'
+	alias ls='ls -h --color=auto'
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
@@ -135,8 +135,8 @@ ex ()
 HISTSIZE= HISTFILESIZE= #Infinite history
 
 # System general
-alias ll="ls -l"
-alias la="ls -la"
+alias ll="ls -lh"
+alias la="ls -lah"
 alias sdn="sudo shutdown now"
 alias setwallpaper="feh --bg-scale"
 
