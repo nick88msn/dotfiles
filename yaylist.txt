@@ -14,6 +14,7 @@ avahi
 b43-fwcutter
 bash
 bauh
+biber
 binutils
 bison
 bitwarden
