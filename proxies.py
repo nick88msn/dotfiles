@@ -11,8 +11,8 @@ def getProxyList(url):
             file.write(f'\n{proxy["IP"]}:{proxy["PORT"]}')
 
 #url = 'https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt'
-url3 = 'http://www.proxy-list.download/api/v0/get?l=en&t=http'
-url4 = 'http://www.proxy-list.download/api/v0/get?l=en&t=https'
+# url3 = 'http://www.proxy-list.download/api/v0/get?l=en&t=http'
+# url4 = 'http://www.proxy-list.download/api/v0/get?l=en&t=https'
 sock5= 'https://www.proxy-list.download/api/v0/get?l=en&t=socks5'
 #r = requests.get(url, allow_redirects=True)
 with open('proxies.txt','w') as file:

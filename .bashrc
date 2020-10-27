@@ -139,7 +139,7 @@ alias ll="ls -lh"
 alias la="ls -lah"
 alias sdn="sudo shutdown now"
 alias setwallpaper="feh --bg-scale"
-
+alias hdmi-audio="pactl set-card-profile 0 output:hdmi-stereo"
 # Keyboard switch
 alias keyboard_us='setxkbmap -layout us'
 alias keyboard_it='setxkbmap -layout it'

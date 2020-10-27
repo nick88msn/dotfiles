@@ -182,6 +182,7 @@ pamac-gtk
 pandoc
 patch
 patchutils
+pavucontrol
 pciutils
 pcmanfm
 perl
@@ -192,6 +193,7 @@ poppler-data
 powertop
 procps-ng
 psmisc
+pulseaudio
 qt5-styleplugins
 qt5ct
 rclone
