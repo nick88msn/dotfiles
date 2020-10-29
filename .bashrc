@@ -153,6 +153,7 @@ alias nuc="ssh evilsocket@192.168.50.10"
 alias weather='curl wttr.in/salerno?lang=it'
 alias timelapse='ffmpeg -framerate 1 -f x11grab -s 3840,2160 -i :0.0+0,0 -vf settb=\(1/30\),setpts=N/TB/30 -r 30 -vcodec libx264 -crf 0 -preset ultrafast -threads 0 timelapse.mkv'
 alias covid='wget -O covid.pdf https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/schede-riepilogative/regioni/dpc-covid19-ita-scheda-regioni-latest.pdf && zathura covid.pdf & disown'
+alias usb='sudo mount /dev/sda1 /mnt/usb/'
 eval "$(thefuck --alias)"
 
 # Bash Prompt generator from http://ezprompt.net/

@@ -193,6 +193,8 @@ powertop
 procps-ng
 psmisc
 pulseaudio
+python-wheel
+qemu
 qt5-styleplugins
 qt5ct
 rclone
